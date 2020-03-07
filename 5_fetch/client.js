@@ -1,3 +1,4 @@
+'use strict'
 // Таблица совместимости async/await, fetch:
 // https://caniuse.com/#search=async
 // https://caniuse.com/#search=await

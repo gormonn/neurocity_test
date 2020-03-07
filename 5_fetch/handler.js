@@ -1,3 +1,4 @@
+'use strict'
 const jsonObj = require('./json.js');
 
 module.exports = function (req, res) {
