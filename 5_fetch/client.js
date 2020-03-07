@@ -8,7 +8,7 @@ async function init(){
     drawJson(json);
 }
 async function getJson(){
-    let url = 'http://localhost:3000/getData';
+    let url = 'http://localhost:3000/5_fetch';
     let response = await fetch(url, {mode: 'cors'});
     
     if (response.ok) {

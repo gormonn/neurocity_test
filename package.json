@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "5-fetch-server": "node 5_fetch/server.js",
-    "5-fetch-client": "/open 5_fetch/index.html"
+    "server": "node server.js"
   },
   "repository": {
     "type": "git",
