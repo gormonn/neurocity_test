@@ -1,5 +1,10 @@
+# установка зависимостей (express сервер)
 <code>
 npm i
+</code>
+
+# Запуск сервера для задач 5 и 6
+<code>
 npm run server
 </code>
 
