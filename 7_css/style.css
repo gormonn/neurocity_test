@@ -1,0 +1,34 @@
+.parent {
+    position: relative;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+}
+
+.parent__header {
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+.parent__child {
+    width: 100px;
+    height: 100px;
+    background-color: #A2CBFA;
+}
+
+.parent-js {
+    width: 100%;
+    display: block;
+    align-items: unset;
+    justify-content: unset;
+    background-color: #A2CBFA;
+}
+.parent__child-js{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+}
