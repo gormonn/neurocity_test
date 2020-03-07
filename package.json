@@ -1,0 +1,25 @@
+{
+  "name": "neurocity_test",
+  "version": "1.0.0",
+  "description": "1. Реализуйте простой слайдер для touch устройств(события мыши могут не обрабатываться).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "5_fetch_server": "node 5_fetch/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gormonn/neurocity_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gormonn/neurocity_test/issues"
+  },
+  "homepage": "https://github.com/gormonn/neurocity_test#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "renderjson": "^1.4.0"
+  }
+}
