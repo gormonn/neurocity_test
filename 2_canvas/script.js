@@ -1,3 +1,5 @@
+// Таблица совместимости let:
+// https://caniuse.com/#search=let
 document.addEventListener("DOMContentLoaded", init);
 function init(){
     // window.requestAnimationFrame(draw);
@@ -5,24 +7,24 @@ function init(){
 }
 
 function draw(){
-    var WIDTH = 800, HEIGHT = 600;
-    var canvas = document.getElementById('canv');
+    let WIDTH = 800, HEIGHT = 600;
+    let canvas = document.getElementById('canv');
     canvas.width = WIDTH;
     canvas.height = HEIGHT;
-    var ctx = canvas.getContext('2d');
+    let ctx = canvas.getContext('2d');
     ctx.clearRect(0,0,WIDTH,HEIGHT);
 
     ctx.fillStyle = "green";
-    var arcRadius = 50;
+    let arcRadius = 50;
     ctx.arc(0 + arcRadius, 0 + arcRadius, arcRadius, 0, 2 * Math.PI, false);
     ctx.fill();
 
-    var rectSize = 100;
+    let rectSize = 100;
     ctx.fillStyle = "blue";
     ctx.fillRect(WIDTH - rectSize, 0, rectSize, rectSize);
 
     // triangle
-    var tSize = 100;
+    let tSize = 100;
     ctx.fillStyle = 'red';
     ctx.beginPath();
     ctx.moveTo(0, HEIGHT);
@@ -30,7 +32,7 @@ function draw(){
     ctx.lineTo(tSize, HEIGHT);
     ctx.fill();
     
-    var rectSize2 = rectSize*1.5;
+    let rectSize2 = rectSize*1.5;
     ctx.fillStyle = "orange";
     ctx.fillRect(WIDTH - rectSize, HEIGHT - rectSize2, rectSize, rectSize2);
     
